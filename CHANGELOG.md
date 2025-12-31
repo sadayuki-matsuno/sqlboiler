@@ -4,11 +4,21 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic
 Versioning](http://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## [4.19.6] - 2025-12-31
 
 ### Fixed
 
 - Do not treat columns with partial unique indexes as unique in psql driver.
+
+### Security
+
+- Update golang.org/x/crypto from 0.38.0 -> 0.45.0
+
+## [4.19.2-4] - 2025-06-26
+
+### Changed
+
+- Change import paths
 
 ## [4.19.1] - 2025-05-20
 
